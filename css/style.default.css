@@ -63,7 +63,7 @@ section {
   width: 100px;
   height: 1px;
   margin: 20px 0 20px;
-  background: #555555;
+  background: #F6B501;
 }
 .img-responsive {
   margin: 0 auto;
@@ -80,7 +80,7 @@ section {
   color: #fff;
 }
 .section-inverse .heading:after {
-  background: #fff;
+  background: #F6B501;
 }
 .box {
   margin-bottom: 30px;
@@ -495,7 +495,7 @@ NAVBAR
   .navbar-default .navbar-nav > .active > a,
   .navbar-default .navbar-nav > .active > a:hover,
   .navbar-default .navbar-nav > .active > a:focus {
-    border-bottom: solid 1px #666;
+    border-bottom: solid 1px #F6B501;
   }
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -847,7 +847,7 @@ h6,
 }
 h1,
 .h1 {
-  font-size: 48px;
+  font-size: 42px;
 }
 h2,
 .h2 {
