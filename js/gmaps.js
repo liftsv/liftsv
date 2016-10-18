@@ -213,6 +213,9 @@ var GMaps = (function(global) {
     this.layers = []; // array with kml/georss and fusiontables layers, can be as many
     this.singleLayers = {}; // object with the other layers, only one per layer
     this.markers = [];
+
+    // console.log(this.markers);
+
     this.polylines = [];
     this.routes = [];
     this.polygons = [];
@@ -566,6 +569,7 @@ GMaps.prototype.createMarker = function(options) {
     throw 'No latitude or longitude defined.';
   }
 
+  
   var self = this,
       details = options.details,
       fences = options.fences,
