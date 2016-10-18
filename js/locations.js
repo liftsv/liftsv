@@ -6,6 +6,11 @@ $(function () {
 
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
+            scrollwheel: false,
+            navigationControl: false,
+            mapTypeControl: false,
+            scaleControl: false,
+            draggable: false,
             center: location,
             zoom: 10,
             panControl: false,
