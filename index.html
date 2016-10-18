@@ -208,7 +208,7 @@
                       <div class="col-sm-6">
                         <div class="form-group">
                           <!-- <label for="name">Your firstname *</label> -->
-                          <input type="text" name="name" placeholder="First Name" required="required" class="form-control">
+                          <input type="text" name="firstname" placeholder="First Name" required="required" class="form-control">
                         </div>
                       </div>
                       <div class="col-sm-6">
@@ -231,6 +231,10 @@
                     </div>
                   </div>
                 </form>
+                <div style="display:none;" id="thankyou_message">
+                  <h2><em>Thanks</em> for contacting us!
+                    We will get back to you soon!</h2>
+                </div>
               </div>
               <div class="col-md-6">
                 <p>Serving as the Pastor of Innovation for Venture Christian Church in Los Gatos for the past two years, Marc Krejci has directed and led efforts to activate the technology and entrepreneur community in order to steward their talents towards Kingdom initiatives, while simultaneously guiding digital projects internal to church operations. </p>
@@ -276,6 +280,8 @@
      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv3O2c4MMzU8MxH4BlK91zHP0Z_cmUtM4"></script>
     <!-- <script src="js/gmaps.js"></script> -->
     <script src="js/locations.js"></script>
+    <!-- form handler -->
+     <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
     <!-- main script-->
     <script src="js/front.js"></script>
     <!-- Google Analytics -->
